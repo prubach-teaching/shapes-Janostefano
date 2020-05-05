@@ -22,6 +22,18 @@ public class PlayWithShapes {
         Circle c1 = new Circle(5);
         System.out.println("C1: " + c1);
         System.out.println("Surface C1: " + c1.calcSurface());
+
+        EquilateralTriangle equilateralTriangle = new EquilateralTriangle(3);
+
+        System.out.println(equilateralTriangle.calcSurface());
+        System.out.println(equilateralTriangle.calcPerimeter());
+
+        Triangle triangle = new Triangle(1,2,3);
+        System.out.println(triangle.calcPerimeter());
+
+        Square square = new Square(3);
+        System.out.println(square.calcPerimeter());
+        System.out.println(square.calcSurface());
     }
 
 }
